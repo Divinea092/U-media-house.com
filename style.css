@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+:root{
+    --bg-color: #06054c;
+    --main-color: #33c6f3;
+    --large-font: 3.6rem;
+    --big-font: 3rem;
+    --font-size: 16px;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.back-video{
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero{
+    width: 100%;
+    position: relative;
+    padding: 0.5%;
+    bottom: 51em;
+}
+
+.nav-links{
+    background-color: #f6f9fc;
+    padding: 10px;
+    border-radius: 30px;
+    transform: translateY(-20px);
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links a i{
+    color: var(--bg-color);
+    font-size: 20px;
+    color: var(--bg-color);
+    font-weight: 800;
+}
+
+.hero-section {
+    position: relative;
+    top: 5em;
+}
+
+.first-text{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first-heading{
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.hero-ltems li{
+    font-size: 22px;
+}
+
+.hero-ltems li:hover{
+    color: #ffffff;
+}
+
+.second-show {
+    top: 5em;
+    position: relative;
+    right: -26em;
+    line-height: 30px;
+}
+
+.second-show h6{
+    font-weight: 800;
+    color: black;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.second-show li span{
+    color: rgb(194, 34, 34);
+    font-weight: 700;
+}
+
+.second-show li{
+    font-weight: lighter;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.second-hero {
+    position: relative;
+    bottom: 45em;
+    background-color: #f6f6f7;
+    height: 80vh;
+    border-radius: 5%;
+    border:  10px solid  rgb(211, 97, 97);
+}
+
+.secondsection{
+    margin-top: 10em;
+}
+
+.secondsection p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.secondsection p{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;   
+}
+
+.secondsection-img img{
+    margin-top: 5em;
+    border-radius: 50%;
+}
+
+.contents {
+    position: relative;
+    bottom: 45em;
+}
+
+.events-contents {
+    margin-top: 8em;
+}
+
+.first-img img{
+    box-shadow: 0 6px 30px -4px rgba(0, 0, 0, 0.15);
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--bg-color);
+}
+
+.second-side {
+    margin-top: 10em;
+}
+
+.second-side h3{
+    text-align: center;
+    font-size: 39px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: var(--bg-color);
+}
+
+.second-side h3{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.second-img img{
+    margin-top: 7em;
+    box-shadow: 0 6px 30px -4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 5em;
+}
+
+.second-side span{
+    font-weight: lighter;
+    color: rgb(219, 16, 16);
+}
+
+.eventlist li{
+    font-size: 17px;
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.eventlist span{
+    font-size: 16px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.events-txt{
+    margin: 20px 0;
+    margin-top: 80px;
+}
+
+.events-txt h1{
+    text-align: center;
+    font-size: var(--big-font);
+    color: var(--bg-color);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.scroll-container{
+    max-width: 100%;
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.scroll-container img {
+    padding: 10px;
+}
+
+.public-container {
+    position: relative;
+    bottom: 48em;
+    background-color: #f6f9fc;
+}
+
+.publicmore{
+    margin-top: 70px;
+}
+
+.publicpara p{
+    font-size: 17px;
+    color: var(--bg-color);
+    font-weight: lighter;
+}
+
+.card3{
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 30px -4px rgba(0, 0, 0, 0.15);
+    transition: all .4s ease;
+}
+
+.card3:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.cardfills h6 p:hover{
+    background-color: var(--bg-color);
+    color: #ffffff;
+}
+
+.cardfills h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--bg-color);
+}
+
+.cardfills p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.public h1{
+    text-align: center;
+    font-size: var(--big-font);
+    color: var(--bg-color);
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-top: 2em;
+}
+
+.reviews h1{
+    text-align: center;
+    font-size: var(--big-font);
+    color: var(--bg-color);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.reviews{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    transition: all .4s ease-in;
+}
+
+.sectionfills{
+    position: relative;
+    bottom: 48em;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
+    margin: 0 65px;
+}
+
+.card1{
+    border-radius: 12px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    transition: all .4s ease;
+}
+
+.card1:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.5);
+    background-color: var(--bg-color);
+    color: #ffffff;
+}
+
+.journalismpic img:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+.card1 p{
+    line-height: 25px;
+    text-align: center;
+}
+
+.card1 h5{
+    margin: 30px;
+}
+
+.contactmore h1{
+    text-align: center;
+    font-size: var(--big-font);
+    color: var(--bg-color);
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.contact-container{
+    position: relative;
+    bottom: 45em;
+}
+
+.contactline {
+    position: relative;
+    right: -37em;
+    border-bottom: 5px solid rgb(221, 10, 10);
+    width: 150px;
+}
+
+.contact-content {
+    background-color: black;
+    height: 300px;
+}
+
+.iconsfills i{
+    color: rgb(216, 13, 13);
+    font-size: 40px;
+}
+
+h5{
+    color: rgb(184, 182, 182);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.contactpara {
+    color: rgb(184, 182, 182);
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.intouch {
+    margin-top: 200px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.intouch-img img{
+    margin-top: 140px;
+}
+
+.intouch h5{
+    color: var(--bg-color);
+    font-weight: 600;
+}
+
+.intouchpara {
+    font-size: 18px;
+    color: var(--bg-color);
+    font-weight: lighter;
+}
+
+.morefills input{
+    width: 220px;
+    margin-top: 20px;
+    height: 50px;
+    outline: none;
+}
+
+.moremessages input{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+}
+
+.fot {
+    position: relative;
+    bottom: 47em;
+}
+
+.subscribe-txt h4{
+    font-size: 20px;
+    color: var(--bg-color);
+    margin: 30px 0;
+    font-weight: 700;
+}
+
+.subscribe{
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    width: 50%;
+}
+
+.subscribe button{
+    background: var(--bg-color);
+    width: 100px;
+    height: 40px;
+    color: white;
+    width: 50%;
+}
+
+.subscribe input{
+    height: 45px;
+    width: 100%;
+    margin-left: 120px;
+    padding-left: 5px;
+    border: solid;
+}
+
+.subscribe a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    margin: 160px 0;
+    padding: 0 30px;
+    justify-content: center;
+    gap: 50px;
+    border-top: 5px solid gainsboro;
+    padding-top: 110px;
+    align-items: center;
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
